@@ -11,7 +11,7 @@ import io.github.angelcaordev.diary.model.Note;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Everything was OK");
+		System.out.println("Iniciando el programa...");
 		
 		//Creamos varios objetos Note
 		Note notaUno = new Note("titulo1", "descripcion1",9,"31/01/19","31/01/19");
@@ -33,6 +33,8 @@ public class Main {
 		
 		//Visualizamos todas las notas 		
 		controller.verNotas();
+		
+		System.out.println("Fin del programa");
 
 	}
 
