@@ -34,7 +34,7 @@ public class Main {
 		//Visualizamos todas las notas 		
 		controller.verNotas();
 		
-		System.out.println("Fin del programa");
+		System.out.println("Fin");
 
 	}
 
